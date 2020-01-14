@@ -1,6 +1,6 @@
 #headerbody 
 {
-    background-image: url('../images/header.PNG');
+    background-image: url('./images/header.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 15.5%;
@@ -43,4 +43,4 @@ h1 a:link
 h1 a:link
 {
     background-color:none;
-}*/
+}*/ 
