@@ -2,7 +2,7 @@
     background-image: url('../images/header.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 15.7%;
+    background-size: 110% 15.7%;
 }
 
 #title {
@@ -10,7 +10,6 @@
     font-size: 210%;
     color: antiquewhite;
     text-decoration: none;
-    margin:0px;
 }
 
 #navheader {
