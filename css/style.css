@@ -10,9 +10,10 @@ html
     background-size: 100% 15.7%;
     vertical-align:top;
     border:none;
-    margin:0px;
 }
-
+#header h1 {
+    margin: 0px;
+}
 #title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     font-size: 210%;
