@@ -1,0 +1,25 @@
+#header {
+    background-image: url('../images/header.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 15.7%;
+}
+
+#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-size: 210%;
+    padding-top: 0.5%;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#navheader {
+    color: wheat;
+    text-decoration: none;
+    padding: 0.1% 2%;
+    background-color: skyblue;
+}
+#footer {
+    background-color: darkblue;
+    width: 100%;
+}
