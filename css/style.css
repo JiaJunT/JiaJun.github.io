@@ -2,8 +2,9 @@
     background-image: url('../images/header.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 110% 15.7%;
+    background-size: 100% 15.7%;
     vertical-align:top;
+    border:none;
 }
 
 #title {
