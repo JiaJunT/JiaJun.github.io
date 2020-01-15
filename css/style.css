@@ -19,6 +19,12 @@
     padding: 0.1% 2%;
     background-color: skyblue;
 }
+body {
+    background-image: url('../images/background.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 #footer {
     background-color: darkblue;
     width: 100%;
