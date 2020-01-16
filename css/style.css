@@ -46,7 +46,7 @@ body {
     color: antiquewhite;
     vertical-align:bottom;
     text-decoration:none;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
 }
 #footer h5
 {
