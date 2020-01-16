@@ -18,7 +18,6 @@ html, body
     color: antiquewhite;
     text-decoration: none;
 }
-
 #navheader {
     color: wheat;
     text-decoration: none;
@@ -37,6 +36,10 @@ body {
 #content
 {
     flex: 1 0 auto;
+}
+#content h2
+{
+    color:aliceblue;
 }
 #footer {
     background-color: #0f52BA;
