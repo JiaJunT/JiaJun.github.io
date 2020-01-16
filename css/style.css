@@ -49,6 +49,7 @@ body {
     vertical-align:bottom;
     text-decoration:none;
     flex-shrink: 0;
+    flex-wrap:wrap;
 }
 #footer h5
 {
