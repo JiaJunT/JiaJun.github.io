@@ -8,8 +8,6 @@ html, body
     background-attachment: fixed;
     background-size: 100% 16%;
     vertical-align:top;
-    display:flex;
-    flex-wrap:wrap;
 }
 #header h1 {
     margin: 0px;
@@ -49,7 +47,6 @@ body {
     vertical-align:bottom;
     text-decoration:none;
     flex-shrink: 0;
-    flex-wrap:wrap;
 }
 #footer h5
 {
