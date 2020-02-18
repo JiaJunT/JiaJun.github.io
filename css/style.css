@@ -2,6 +2,7 @@ html, body
 {
    height:100%;
 }
+
 #header {
     background-color: rgba(0,0,0,0.0);
     background-repeat: no-repeat;
@@ -9,21 +10,25 @@ html, body
     background-size: 100% 16%;
     vertical-align: top;
 }
+
 #header h1 {
     margin: 0px;
 }
+
 #title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     font-size: 210%;
     color: antiquewhite;
     text-decoration: none;
 }
+
 #navheader {
     color: wheat;
     text-decoration: none;
     padding:0% 2%;
-    background-color: skyblue;
+    border: skyblue;
 }
+
 body {
     background-image: url('../images/background.PNG');
     background-repeat: no-repeat;
@@ -32,17 +37,19 @@ body {
     margin:0px;
     display:flex;
     flex-direction:column;
-    
 }
+
 #content
 {
     flex: 1 0 auto;
     padding-left:3%;
 }
+
 #content h2
 {
     color:aliceblue;
 }
+
 #footer {
     background-color: #0f52BA;
     width: 100%;
@@ -53,6 +60,7 @@ body {
     text-decoration:none;
     flex-shrink: 0;
 }
+
 #footer h5
 {
     margin-bottom: 1%;
