@@ -18,6 +18,7 @@ html, body
 #header hr
 {
     margin:0%;
+    color:black;
 }
 
 #title {
@@ -56,6 +57,16 @@ body {
     background-color: rgba(200, 200, 200, 0.6);
     margin: 0% 5%;
 }
+#portfoliodetails h3
+{
+    font-size:200%;
+    text-align:center;
+}
+#portfoliodetails h3 {
+    font-size: 200%;
+    text-align: center;
+}
+
 #footer {
     background-color: #0f52BA;
     width: 100%;
