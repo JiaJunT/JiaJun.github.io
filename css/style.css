@@ -15,11 +15,9 @@ html, body
     margin: 0%;
 }
 
-#header hr
-{
-    margin:0%;
-    background-color:blue;
-}
+    #header hr {
+        border-top: 1px solid #000042;
+    }
 
 #title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
@@ -57,10 +55,9 @@ body {
     background-color: rgba(200, 200, 200, 0.6);
     margin: 0% 5%;
 }
-#portfoliodetails hr
-{
-    background-color:aquamarine;
-}
+    #portfoliodetails hr {
+        border-top: 1px solid aquamarine;
+    }
 #portfoliodetails h3
 {
     font-size:200%;
