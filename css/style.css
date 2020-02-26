@@ -83,10 +83,10 @@ body {
     vertical-align: bottom;
     text-decoration: none;
     flex-shrink: 0;
-    text-align:left;
 }
 
 #footer h5
 {
     margin-bottom: 0%;
+    text-align:left;
 }
