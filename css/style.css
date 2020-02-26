@@ -47,16 +47,21 @@ body {
     background-color: rgba(200, 200, 200, 0.9);
 }
 
-    #content h2 {
-        color: #003c71;
-    }
-
+#content h2 {
+    color: #003c71;
+    margin-top:0%;
+}
+#content dl
+{
+    margin-bottom:0%;
+}
 #portfoliodetails {
     background-color: rgba(200, 200, 200, 0.6);
     margin: 0% 5%;
 }
     #portfoliodetails hr {
         border: 1px solid aquamarine;
+        margin: 0%;
     }
 #portfoliodetails h3
 {
