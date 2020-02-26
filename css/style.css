@@ -16,7 +16,7 @@ html, body
 }
 
     #header hr {
-        border-top: 1px solid #000042;
+        border: 1px solid #000042;
     }
 
 #title {
@@ -56,7 +56,7 @@ body {
     margin: 0% 5%;
 }
     #portfoliodetails hr {
-        border-top: 1px solid aquamarine;
+        border: 1px solid aquamarine;
     }
 #portfoliodetails h3
 {
