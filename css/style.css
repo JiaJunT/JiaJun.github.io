@@ -49,10 +49,10 @@ body {
     padding-left:3%;
 }
 
-#content h2
-{
-    color:aliceblue;
-}
+    #content h2 {
+        color: #003c71;
+    }
+
 #portfoliodetails {
     background-color: rgba(200, 200, 200, 0.6);
     margin: 0% 5%;
