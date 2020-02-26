@@ -52,11 +52,9 @@ body {
 {
     color:aliceblue;
 }
-#portfoliodetails 
-{
-    background-color:grey;
+#portfoliodetails {
+    background-color: rgba(200, 200, 200, 0.3);
     margin: 0% 10%;
-    border: 1px solid black;
 }
 #footer {
     background-color: #0f52BA;
