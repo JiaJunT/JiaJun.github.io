@@ -47,15 +47,18 @@ body {
 {
     color:aliceblue;
 }
-
+#portfoliodetails 
+{
+    background-color:white;
+}
 #footer {
     background-color: #0f52BA;
     width: 100%;
     height: 10%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     color: antiquewhite;
-    vertical-align:bottom;
-    text-decoration:none;
+    vertical-align: bottom;
+    text-decoration: none;
     flex-shrink: 0;
 }
 
