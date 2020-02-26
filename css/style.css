@@ -55,7 +55,8 @@ body {
 #portfoliodetails 
 {
     background-color:grey;
-    margin:0%,20%,0%,20%;
+    margin: 0% 20%;
+    border: 1px solid black;
 }
 #footer {
     background-color: #0f52BA;
