@@ -83,7 +83,7 @@ body {
 #footer {
     background-color: #304f77;
     width: 100%;
-    height: 6%;
+    height: 7%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     color: antiquewhite;
     vertical-align: bottom;
@@ -92,7 +92,7 @@ body {
 }
 #footer h4
 {
-    margin-top:1%;
+    margin-top:0.5%;
     margin-bottom:0.2%;
 }
 #footer h5
