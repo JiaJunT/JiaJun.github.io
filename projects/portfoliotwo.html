@@ -7,10 +7,16 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+        $("#header").load("/general/header.html");
+        $("#footer").load("/general/footer.html");
+        });
+    </script>
 </head>
 <body>
     
-        <div id="myheader"></div>
+        <div id="header"></div>
         <div id="portfoliodetails">
 
             <h3>Project Name: City Saviour</h3>
@@ -166,6 +172,6 @@
                 <a href="https://drive.google.com/open?id=1CeUIn2Pc9e1sLnItCUozBkcR9p8z2cpM">Google Drive link</a>
             </div>
         </div>
-    <div id="myfooter"></div>
+    <div id="footer"></div>
 </body>
 </html>
