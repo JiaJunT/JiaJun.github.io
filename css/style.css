@@ -16,7 +16,7 @@ html, body
     }
 
     #header hr {
-        border: 1px solid #001d38;
+        border: 1px solid dimgray;
         margin-bottom: 0%;
     }
 
@@ -28,7 +28,7 @@ html, body
 }
 
 #navheader {
-    color: white;
+    color: dimgray;
     padding:0% 2%;
 }
 
