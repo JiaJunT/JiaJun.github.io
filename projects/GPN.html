@@ -2,23 +2,136 @@
 <html>
 <head>
     <title>Portfolio 2</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="shortcut icon" href="#" />
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script>
-        $(function(){
-        $("#header").load("/general/header.html");
-        $("#footer").load("/general/footer.html");
+        $(function () {
+            $("#header").load("/general/header.html");
+            $("#footer").load("/general/footer.html");
         });
     </script>
 </head>
 <body>
+
     <div id="header"></div>
-    <div id="content">
-        <a href="https://drive.google.com/open?id=1bxM7p2wvICK_mf8vNB3w5nD42nsGxha3">Google Drive Link</a>
+    <div id="portfoliodetails">
+
+        <h3>Project Name: Hella' Dodge</h3>
+        <h5>Role(s): illust</h5>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:40%; height:37.2%;float:right; border:1px solid darkgray">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../images/cards.png" alt="Cards featured in the game" style="width:100%; height:400px;">
+                </div>
+
+                <div class="item">
+                    <img src="../images/examplescript.png" alt="The code that randomizes the questions" style="width:100%; height:400px;">
+                </div>
+
+                <div class="item">
+                    <img src="../images/howtoplay.png" alt="the final 'how to play' screen" style="width:100%; height:400px;">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr />
+        <div id="content">
+            <h2><u>Week 12</u></h2>
+            <dl>
+                <dd>
+                    The starting of the assignment began with a very simple question: "Who was our target audience?", and we decided to target players interested in pushing their skills, which eventually led us to decide 
+                    on making a bullet hell game. This is based on the fact that it is possible to make a base bullet hell experience from previous years' works, as well as the fact that the game could be a challenge to 
+                    play due to the category it falls under(action) as well as it's requirement of precision due to how dense the screen may get due to the nature of t game. My personal motivation for going along with the 
+                    choice of game is because I enjoy Rhythm games, such as Osu! and Bandori!, which are also a form of action games, which also has similarities in that both are played using a mix of reaction times,memorization 
+                    as well as precision to successfully clear the game.
+                </dd>
+            </dl>
+        </div>
+        <hr />
+        <div id="content">
+            <h2><u>Week 13</u></h2>
+            <dl>
+                <dd>
+                    On the second week of the assignment, I was focusing on WEB, while Hao Che made the early game mechanics as well as all the sprites(Which we eventually called the game "ShapeWars" since the game was made up 
+                    of simple shapes for both enemies as well as for the player itself), with the player being a Blue Square before becoming a blue Triangle and then the current player model at the end of the game while i tossed 
+                    out ideas for enemy attack patterns while playing bullet hell games, such as "Cage of bullets" on iOS. We also decided to make bullets 'Autofire' around this period because we didn't feel that there was a reason 
+                    for the player to need to hold a button(originally 'Z') down to shoot.
+                </dd>
+            </dl>
+        </div>
+        <hr />
+        <div id="content">
+            <h2><u>Week 14</u></h2>
+            <dl>
+                <dd>
+                    on week 14, I was balancing between over the shoulder coding as well as coming up with more pattern ideas, and suggesting to nerf the homing bullets, by either having them fire less frequently of reducing its' 
+                    drop rate. We eventually decided to nerf the drop rate of the ability, as having 3 homing bullets made the game extremely easy.
+                </dd>
+            </dl>
+        </div>
+        <hr />
+        <div id="content">
+            <h2><u>Week 15</u></h2>
+            <dl>
+                <dd>
+                    I looked for sound effects for the bullets as well as the laser on Monday, as well as remade the pause menu from the original to the current one to be able to quit to the menu on Tuesday. Not much progress this 
+                    days because WEB and MAD Assignment deadlines were closing in
+                </dd>
+            </dl>
+        </div>
+        <hr />
+        <div id="content">
+
+            <h2><u>Week 16</u></h2>
+            <dl>
+                <dd>
+                    This week was when most of the sprites are edited as well as replaced. I intend to make a changelog page for all the sprites changed. Also, all the menu sprites were also changed to have their X and Y Axis changed 
+                    to 0,0 from align center to help align all the menu easily.
+                </dd>
+            </dl>
+        </div>
+        <hr />
+        <div id="content">
+            <h2><u>Week 17</u></h2>
+            <dl>
+                <dd>
+                    Presentation week. After that, I also made minor changes to more sprites, as well as the menu, which will be included in the changelog.
+                </dd>
+            </dl>
+        </div>
+        
+        <hr />
+        <div id="content">
+            <dl id="nomargin">
+                <dt>Additional Notes</dt>
+                <dd>
+
+                    - most discussions happen in real life, so I will only be able to provide a vague time frame of when things happen.
+                    - There will be a mini art-section in Assignment 2 Here since most of my work is dealing with assets
+                </dd>
+            </dl>
+            <a href="https://drive.google.com/open?id=1bxM7p2wvICK_mf8vNB3w5nD42nsGxha3">Google Drive link</a>
+        </div>
     </div>
     <div id="footer"></div>
 </body>
