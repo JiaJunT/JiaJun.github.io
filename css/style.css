@@ -44,7 +44,7 @@ body {
 
 #content {
     flex: 1 0 auto;
-    background-color: rgba(200, 200, 200, 0.3);
+    background-color: rgba(200, 200, 200, 0.5);
     margin:0% 5%;
 }
 
