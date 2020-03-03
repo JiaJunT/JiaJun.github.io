@@ -47,6 +47,10 @@ body {
     background-color: rgba(200, 200, 200, 0.5);
     margin:0% 5%;
 }
+#content h1
+{
+    text-align:center;
+}
 
 #content h2 {
     color: #003c71;
