@@ -15,36 +15,22 @@
             switch (localStorage.getItem('SetLanguage'))
             {
                 case "En":
-                    <h1><a href="/index" id="title">Welcome</a></h1>
-                        <a href="/projects/list" id="navheader">Projects</a>
-                        <a href="/general/about" id="navheader">About Me</a>
-                        <div class="dropdown">
-                            <select id="LanguageSet">
-                                <option value="En">English</option>
-                                <option value="Jp">Japanese</option>
-                            </select>
-                        </div>
-                        <hr />
+                    document.getElementById("title").innerHTML = Welcome;
+                    document.getElementById("navheaderproject").innerHTML = Projects;
+                    document.getElementById("navheaderabout").innerHTML = About Me;
                     break;
                 case "Jp":
-                    <h1><a href="/index" id="title">ようこそ</a></h1>
-                        <a href="/projects/list" id="navheader">プロジェクト</a>
-                    <a href="/general/about" id="navheader" 自己紹介</a>
-                        <div class="dropdown">
-                            <select id="LanguageSet">
-                                <option value="En">English</option>
-                                <option value="Jp">Japanese</option>
-                            </select>
-                        </div>
-                        <hr />
+                    document.getElementById("title").innerHTML = ようこそ;
+                    document.getElementById("navheaderproject").innerHTML = プロジェクト;
+                    document.getElementById("navheaderabout").innerHTML = 自己紹介;
                     break;
             }
             
         };
     </script>
-    <h1><a href="/index" id="title">Welcome</a></h1>
-    <a href="/projects/list" id="navheader">Projects</a>
-    <a href="/general/about" id="navheader">About Me</a>
+    <h1><a href="/index" id="title"></a></h1>
+    <a href="/projects/list" id="navheaderproject"></a>
+    <a href="/general/about" id="navheaderabout"></a>
     <div class="dropdown">
         <select id="LanguageSet">
             <option value="En">English</option>

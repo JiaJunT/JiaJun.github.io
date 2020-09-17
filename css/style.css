@@ -27,10 +27,15 @@ html, body
     text-decoration: none;
 }
 
-#navheader {
+#navheaderproject {
     color: dimgray;
-    padding:0% 2%;
+    padding: 0% 2%;
 }
+#navheaderabout {
+    color: dimgray;
+    padding: 0% 2%;
+}
+
 
 /*body related stuffs go here*/
 body {
