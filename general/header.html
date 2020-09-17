@@ -1,10 +1,56 @@
-<html>
+﻿<html>
 <head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/StoreData.js"></script>
 </head>
 <body>
+    <!-- Checks if there's a language preference set, English is default -->
+    <script>
+        if (localStorage.getItem('SetLanguage') === null)
+        {
+            localStorage.setItem('SetLanguage', "En");
+        }
+        else
+        {
+            switch (localStorage.getItem('SetLanguage'))
+            {
+                case "En":
+                    <h1><a href="/index" id="title">Welcome</a></h1>
+                        <a href="/projects/list" id="navheader">Projects</a>
+                        <a href="/general/about" id="navheader">About Me</a>
+                        <div class="dropdown">
+                            <select id="LanguageSet">
+                                <option value="En">English</option>
+                                <option value="Jp">Japanese</option>
+                            </select>
+                        </div>
+                        <hr />
+                    break;
+                case "Jp":
+                    <h1><a href="/index" id="title">ようこそ</a></h1>
+                        <a href="/projects/list" id="navheader">プロジェクト</a>
+                    <a href="/general/about" id="navheader" 自己紹介</a>
+                        <div class="dropdown">
+                            <select id="LanguageSet">
+                                <option value="En">English</option>
+                                <option value="Jp">Japanese</option>
+                            </select>
+                        </div>
+                        <hr />
+                    break;
+            }
+            
+        };
+    </script>
     <h1><a href="/index" id="title">Welcome</a></h1>
     <a href="/projects/list" id="navheader">Projects</a>
     <a href="/general/about" id="navheader">About Me</a>
+    <div class="dropdown">
+        <select id="LanguageSet">
+            <option value="En">English</option>
+            <option value="Jp">Japanese</option>
+        </select>
+    </div>
     <hr />
 </body>
-</html>
+    </html>
