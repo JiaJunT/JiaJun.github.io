@@ -35,7 +35,11 @@ html, body
     color: dimgray;
     padding: 0% 2%;
 }
+#LanguageSet
+{
 
+    float:right;
+}
 
 /*body related stuffs go here*/
 body {
