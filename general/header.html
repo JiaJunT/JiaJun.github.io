@@ -19,17 +19,11 @@
                     document.getElementById("navheaderproject").innerHTML = "Projects";
                     document.getElementById("navheaderabout").innerHTML = "About Me";
                     var opt = document.getElementById('LanguageSet').options[0];
-                    opt.value = 'En';
-                    opt.text = 'Language';
-
                     break;
                 case "Jp":
                     document.getElementById("title").innerHTML = "ようこそ";
                     document.getElementById("navheaderproject").innerHTML = "プロジェクト";
                     document.getElementById("navheaderabout").innerHTML = "自己紹介";
-                    var opt = document.getElementById('LanguageSet').options[0];
-                    opt.value = 'Jp';
-                    opt.text = '言語';
                     break;
             }
             
@@ -39,8 +33,7 @@
     <a href="/projects/list" id="navheaderproject">Projects</a>
     <a href="/general/about" id="navheaderabout"About Me></a>
     <div class="dropdown">
-        <select id="LanguageSet">
-            <option value="En">language</option>
+        <select id="LanguageSet" name="Language" >
             <option value="En">English</option>
             <option id="value2" value="Jp">Japanese</option>
         </select>
