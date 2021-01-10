@@ -1,10 +1,50 @@
-<html>
+﻿<html>
 <head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/StoreData.js"></script>
 </head>
 <body>
+    <!-- Checks if there's a language preference set, English is default -->
+    <script>
+        if (localStorage.getItem('SetLanguage') === null)
+        {
+            localStorage.setItem('SetLanguage', "En");
+        }
+        else
+        {
+            switch (localStorage.getItem('SetLanguage'))
+            {
+                case "En":
+                    document.getElementById("title").innerHTML = "Welcome";
+                    document.getElementById("navheaderproject").innerHTML = "Projects";
+                    document.getElementById("navheaderabout").innerHTML = "About Me";
+                    var opt = document.getElementById('LanguageSet').options[0];
+                    opt.value = 'En';
+                    opt.text = 'Language';
+
+                    break;
+                case "Jp":
+                    document.getElementById("title").innerHTML = "ようこそ";
+                    document.getElementById("navheaderproject").innerHTML = "プロジェクト";
+                    document.getElementById("navheaderabout").innerHTML = "自己紹介";
+                    var opt = document.getElementById('LanguageSet').options[0];
+                    opt.value = 'Jp';
+                    opt.text = '言語';
+                    break;
+            }
+            
+        };
+    </script>
     <h1><a href="/index" id="title">Welcome</a></h1>
-    <a href="/projects/list" id="navheader">Projects</a>
-    <a href="/general/about" id="navheader">About Me</a>
+    <a href="/projects/list" id="navheaderproject">Projects</a>
+    <a href="/general/about" id="navheaderabout"About Me></a>
+    <div class="dropdown">
+        <select id="LanguageSet" name="Language" >
+            <option hidden value="En">language</option>
+            <option value="En">English</option>
+            <option id="value2" value="Jp">Japanese</option>
+        </select>
+    </div>
     <hr />
 </body>
-</html>
+    </html>

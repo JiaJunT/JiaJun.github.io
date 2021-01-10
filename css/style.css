@@ -2,7 +2,7 @@ html, body
 {
    height:100%;
 }
-
+/*Header-related stuff goes here*/
 #header {
     background-color: rgba(0,0,0,0.0);
     background-repeat: no-repeat;
@@ -27,11 +27,21 @@ html, body
     text-decoration: none;
 }
 
-#navheader {
+#navheaderproject {
     color: dimgray;
-    padding:0% 2%;
+    padding: 0% 2%;
+}
+#navheaderabout {
+    color: dimgray;
+    padding: 0% 2%;
+}
+#LanguageSet
+{
+
+    float:right;
 }
 
+/*body related stuffs go here*/
 body {
     background-image: url('../images/background.PNG');
     background-repeat: no-repeat;
@@ -86,6 +96,7 @@ body {
     margin-top:1%;
 }
 
+/*Footer related stuffs go here*/
 #footer {
     background-color: #304f77;
     width: 100%;
