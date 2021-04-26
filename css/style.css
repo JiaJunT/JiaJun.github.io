@@ -20,6 +20,34 @@ html, body
         margin-bottom: 0%;
     }
 
+#subbar {
+    height:3%;
+    width:100%;
+    background-color:deepskyblue;
+}
+
+#asubbutton {
+    height: 100%;
+    width: auto;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: mediumpurple;
+    color: white;
+}
+
+#subbutton {
+    height: 100%;
+    width: auto;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color:aqua;
+    color:white;
+}
+
 #title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     font-size: 210%;

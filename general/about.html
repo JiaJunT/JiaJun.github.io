@@ -14,33 +14,57 @@
             $("#footer").load("/general/footer.html");
         });
     </script>
+    <script>
+        function displaypls()
+        {
+            document.getElementById("asubbutton").style.backgroundColor = "mediumpurple";
+            document.getElementById("subbutton").style.backgroundColor = "aqua";
+            document.getElementById("content").innerHTML =
+        "<dl><dt><u><b>Web Languages</b></u></dt><dd>HTML5</dd><dd>CSS</dd><dd>Javascript</dd><dt><u><b>Programming Languages</b></u></dt><dd>C#</dd><dd>C++</dd><dd>Java</dd><dd>Python</dd><dd>Swift</dd><dt><u><b>Other Softwares</b></u></dt><dd>Gamemaker Studio 1.4</dd><dd>DaVinci Resolve</dd><dd>Open Canvas(6/7)</dd><dd>Adobe Photoshop</dd><dd>Adobe Flash(depreciated)</dd><dd>Adobe AfterEffects</dd><dd>Adobe Illustrator</dd><dd>Procreate</dd></dl>";
+        }
+    </script>
+    <script>
+        function displayresults()
+        {
+            document.getElementById("asubbutton").style.backgroundColor = "aqua";
+            document.getElementById("subbutton").style.backgroundColor = "mediumpurple";
+            document.getElementById("content").innerHTML =
+            "Todo: scan results"
+
+        }
+    </script>
 </head>
 <body>
     <div id="header"></div>
-    <div id="content">
-    <dl>
-    <dt><u><b>Web Languages</b></u></dt>
-        <dd>HTML5</dd>
-        <dd>CSS</dd>
-        <dd>Javascript</dd>
-    <dt><u><b>Programming Languages</b></u></dt>
-        <dd>C#</dd>
-        <dd>C++</dd>
-        <dd>Java</dd>
-        <dd>Python</dd>
-        <dd>Swift</dd>
-    <dt><u><b>Other Softwares</b></u></dt>
-        <dd>Gamemaker Studio 1.4</dd>
-        <dd>DaVinci Resolve</dd>
-        <dd>Open Canvas(6/7)</dd>
-        <dd>Adobe Photoshop</dd>
-        <dd>Adobe Flash(depreciated)</dd>
-        <dd>Adobe AfterEffects</dd>
-        <dd>Adobe Illustrator</dd>
-        <dd>Procreate</dd>
-    </dl>
+
+    <div id="subbar">
+        <button type="button" onclick="displaypls()" id="asubbutton">Programming Languages</button>
+        <button type="button" onclick="displayresults()" id="subbutton">My Current Results</button>
     </div>
-    
+
+    <div id="content">
+        <dl>
+            <dt><u><b>Web Languages</b></u></dt>
+            <dd>HTML5</dd>
+            <dd>CSS</dd>
+            <dd>Javascript</dd>
+            <dt><u><b>Programming Languages</b></u></dt>
+            <dd>C#</dd>
+            <dd>C++</dd>
+            <dd>Java</dd>
+            <dd>Python</dd>
+            <dd>Swift</dd>
+            <dt><u><b>Other Softwares</b></u></dt>
+            <dd>Gamemaker Studio 1.4</dd>
+            <dd>DaVinci Resolve</dd>
+            <dd>Open Canvas(6/7)</dd>
+            <dd>Adobe Photoshop</dd>
+            <dd>Adobe Flash(depreciated)</dd>
+            <dd>Adobe AfterEffects</dd>
+            <dd>Adobe Illustrator</dd>
+            <dd>Procreate</dd>
+        </dl>
+    </div>
     <div id="footer"></div>
 </body>
 </html>
