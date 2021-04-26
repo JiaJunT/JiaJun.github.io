@@ -63,9 +63,8 @@ html, body
     color: dimgray;
     padding: 0% 2%;
 }
-#LanguageSet
+.dropdown
 {
-
     float:right;
 }
 
