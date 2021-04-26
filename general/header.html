@@ -6,14 +6,11 @@
 <body>
     <!-- Checks if there's a language preference set, English is default -->
     <script>
-        if (localStorage.getItem('SetLanguage') === null)
-        {
+        if (localStorage.getItem('SetLanguage') === null) {
             localStorage.setItem('SetLanguage', "En");
         }
-        else
-        {
-            switch (localStorage.getItem('SetLanguage'))
-            {
+        else {
+            switch (localStorage.getItem('SetLanguage')) {
                 case "En":
                     document.getElementById("title").innerHTML = "Welcome";
                     document.getElementById("navheaderproject").innerHTML = "Projects";
@@ -32,14 +29,15 @@
                     opt.text = '言語';
                     break;
             }
-            
+
         };
     </script>
     <h1><a href="/index" id="title">Welcome</a></h1>
     <a href="/projects/list" id="navheaderproject">Projects</a>
-    <a href="/general/about" id="navheaderabout"About Me></a>
+    <a href="/general/about" id="navheaderabout">About Me</a>
+    <a href="/general/results" id="navheaderresults">My current results</a>
     <div class="dropdown">
-        <select id="LanguageSet" name="Language" >
+        <select id="LanguageSet" name="Language">
             <option hidden value="En">language</option>
             <option value="En">English</option>
             <option id="value2" value="Jp">Japanese</option>
